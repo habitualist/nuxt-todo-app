@@ -1,4 +1,6 @@
 <script setup>
+import { ref, onMounted } from 'vue'
+
 const todos = ref([])
 
 onMounted(() => {
